@@ -207,9 +207,9 @@
 						label = "Base";
 						bindings = <
 						&kp Q 		 &kp W	&kp E		&kp R 			&kp T           	 			&kp Y 			&kp U  	  	&kp I       &kp O    &kp P 
-						&mt LSHIFT A &kp S	&kp D		&kp F 			&kp G           	 			&kp H 			&kp J  	  	&kp K       &kp L    &mt LSHIFT SEMI
+						&mt LSHIFT A &mt LALT S	&mt LGUI D		&kp F 			&kp G           	 			&kp H 			&kp J  	  	&kp K       &kp L    &mt LSHIFT SEMI
 						&mt LCTRL Z  &kp X	&kp C		&kp V 			&kp B			&kp ESC	&kp B	&kp N 			&kp M  	  	&kp COMMA   &kp DOT  &mt LCTRL FSLH
-									 		&kp LALT	&lt PAD SPACE	&lt SYM SPACE 	      			&lt NUM RET  	&lt FNC RET &kp BSPC
+									 		&kp LALT	&lt SYM SPACE	&lt PAD SPACE 	      			&lt FNC RET  	&lt NUM RET &kp BSPC
 						>;
 						sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 				};
