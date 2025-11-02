@@ -37,7 +37,7 @@ left_encoder: encoder_left {
         label = "LEFT_ENCODER";
         a-gpios = <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        resolution = <4>;
+        steps = <80>;
     };
 
 sensors {
